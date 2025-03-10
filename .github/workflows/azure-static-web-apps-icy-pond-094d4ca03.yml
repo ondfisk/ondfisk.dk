@@ -23,5 +23,6 @@ jobs:
             action: upload
             app_location: blog
             output_location: _site
+            production_branch: main
         env:
             JEKYLL_ENV: production
